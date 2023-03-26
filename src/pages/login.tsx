@@ -1,5 +1,8 @@
 import { useLogin } from "@refinedev/core";
 import { useEffect, useRef } from "react";
+
+import { yariga } from "assets";
+
 import { CredentialResponse } from "../interfaces/google";
 
 // Todo: Update your Google Client ID here
